@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="CBrowserSuit" thread-count="2" parallel="tests">
+  <listeners>
+      <listener class-name= "extendReport.ExtentTestNGIReporterListener"/>
+  </listeners>
+  <test name="Chrome">
+  <parameter name="browsers" value="chrome" />
+    <classes>
+      <class name="tests.ToVerifyLoginPage"/>
+    </classes>
+  </test> <!-- test -->
+  
+   <test name="Edge">
+   <parameter name="browsers" value="msedge" />
+    <classes>
+      <class name="tests.ToVerifyLoginPage"/>
+    </classes>
+  </test> <!-- test -->
+</suite> <!-- CBrowserSuit -->

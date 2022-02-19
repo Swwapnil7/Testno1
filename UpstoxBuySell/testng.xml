@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="browser" value="velocity"/>
+    <classes>
+      <class name="tests.Test2">
+      <methods>
+       <include name = "testA" />
+       <include name = "testB"/>    
+      </methods>
+      </class>
+      <class name="tests.Test3">
+      <methods>
+      <include name = "testD" />  
+      <include name = "testE" />  
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+   <test thread-count="5" name="Test1">
+  <parameter name="browser" value="velocity"/>
+    <classes>
+      <class name="tests.Test2">
+      <methods>
+       <include name = "testC" />
+       <include name = "testB"/>    
+      </methods>
+      </class>
+      <class name="tests.Test3">
+      <methods>
+      <include name = "testF"/>     
+      </methods>   
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
