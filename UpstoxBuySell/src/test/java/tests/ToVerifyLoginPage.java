@@ -46,7 +46,7 @@ public class ToVerifyLoginPage extends Browser{
 	@Parameters("browsers")
 	public void launchBrowser(String browser) 
 	{
-		reporter = new ExtentHtmlReporter("test-output"+File.separator+"ExtendReport"+File.separator+"extendReport.html");
+		reporter = new ExtentHtmlReporter("test-output"+File.separator+"ExtentReport"+File.separator+"Extent.html");
 		ExtentReports extend = new ExtentReports();
 		extend.attachReporter(reporter);
 		

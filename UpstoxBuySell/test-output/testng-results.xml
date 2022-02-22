@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="4" passed="2" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-02-17T14:56:01 IST" name="CBrowserSuit" finished-at="2022-02-17T14:56:16 IST" duration-ms="14671">
+  <suite started-at="2022-02-20T21:00:34 IST" name="CBrowserSuit" finished-at="2022-02-20T21:00:53 IST" duration-ms="18435">
     <groups>
     </groups>
-    <test started-at="2022-02-17T14:56:01 IST" name="Chrome" finished-at="2022-02-17T14:56:15 IST" duration-ms="14078">
+    <test started-at="2022-02-20T21:00:34 IST" name="Chrome" finished-at="2022-02-20T21:00:51 IST" duration-ms="16911">
       <class name="tests.ToVerifyLoginPage">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.ToVerifyLoginPage@5e82df6a]" started-at="2022-02-17T14:56:01 IST" name="launchBrowser" finished-at="2022-02-17T14:56:03 IST" duration-ms="2522" status="PASS">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.ToVerifyLoginPage@5e82df6a]" started-at="2022-02-20T21:00:34 IST" name="launchBrowser" finished-at="2022-02-20T21:00:37 IST" duration-ms="2799" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,19 +18,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="objectOfPOM()[pri:0, instance:tests.ToVerifyLoginPage@5e82df6a]" started-at="2022-02-17T14:56:03 IST" name="objectOfPOM" finished-at="2022-02-17T14:56:03 IST" duration-ms="44" status="PASS">
+        <test-method is-config="true" signature="objectOfPOM()[pri:0, instance:tests.ToVerifyLoginPage@5e82df6a]" started-at="2022-02-20T21:00:37 IST" name="objectOfPOM" finished-at="2022-02-20T21:00:37 IST" duration-ms="61" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- objectOfPOM -->
-        <test-method is-config="true" signature="loginToUpstox()[pri:0, instance:tests.ToVerifyLoginPage@5e82df6a]" started-at="2022-02-17T14:56:03 IST" name="loginToUpstox" finished-at="2022-02-17T14:56:09 IST" duration-ms="5744" status="PASS">
+        <test-method is-config="true" signature="loginToUpstox()[pri:0, instance:tests.ToVerifyLoginPage@5e82df6a]" started-at="2022-02-20T21:00:37 IST" name="loginToUpstox" finished-at="2022-02-20T21:00:44 IST" duration-ms="6753" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToUpstox -->
-        <test-method signature="testDetails1()[pri:0, instance:tests.ToVerifyLoginPage@5e82df6a]" started-at="2022-02-17T14:56:09 IST" name="testDetails1" finished-at="2022-02-17T14:56:12 IST" duration-ms="3021" status="PASS">
+        <test-method signature="testDetails1()[pri:0, instance:tests.ToVerifyLoginPage@5e82df6a]" started-at="2022-02-20T21:00:44 IST" name="testDetails1" finished-at="2022-02-20T21:00:48 IST" duration-ms="4267" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDetails1 -->
-        <test-method is-config="true" signature="reverse(org.testng.ITestResult)[pri:0, instance:tests.ToVerifyLoginPage@5e82df6a]" started-at="2022-02-17T14:56:12 IST" name="reverse" finished-at="2022-02-17T14:56:12 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="reverse(org.testng.ITestResult)[pri:0, instance:tests.ToVerifyLoginPage@5e82df6a]" started-at="2022-02-20T21:00:48 IST" name="reverse" finished-at="2022-02-20T21:00:48 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,11 +41,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reverse -->
-        <test-method is-config="true" signature="loginToUpstox()[pri:0, instance:tests.ToVerifyLoginPage@5e82df6a]" started-at="2022-02-17T14:56:12 IST" name="loginToUpstox" finished-at="2022-02-17T14:56:13 IST" duration-ms="600" status="PASS">
+        <test-method is-config="true" signature="loginToUpstox()[pri:0, instance:tests.ToVerifyLoginPage@5e82df6a]" started-at="2022-02-20T21:00:48 IST" name="loginToUpstox" finished-at="2022-02-20T21:00:49 IST" duration-ms="739" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToUpstox -->
-        <test-method signature="testDetails2()[pri:0, instance:tests.ToVerifyLoginPage@5e82df6a]" started-at="2022-02-17T14:56:13 IST" name="testDetails2" finished-at="2022-02-17T14:56:14 IST" duration-ms="1568" status="FAIL">
+        <test-method signature="testDetails2()[pri:0, instance:tests.ToVerifyLoginPage@5e82df6a]" started-at="2022-02-20T21:00:49 IST" name="testDetails2" finished-at="2022-02-20T21:00:50 IST" duration-ms="1650" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[null]]>
@@ -54,7 +54,7 @@
               <![CDATA[java.lang.AssertionError: null
 at org.testng.Assert.fail(Assert.java:99)
 at org.testng.Assert.fail(Assert.java:106)
-at tests.ToVerifyLoginPage.testDetails2(ToVerifyLoginPage.java:115)
+at tests.ToVerifyLoginPage.testDetails2(ToVerifyLoginPage.java:113)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -84,7 +84,7 @@ at java.base/java.lang.Thread.run(Thread.java:831)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDetails2 -->
-        <test-method is-config="true" signature="reverse(org.testng.ITestResult)[pri:0, instance:tests.ToVerifyLoginPage@5e82df6a]" started-at="2022-02-17T14:56:14 IST" name="reverse" finished-at="2022-02-17T14:56:15 IST" duration-ms="474" status="PASS">
+        <test-method is-config="true" signature="reverse(org.testng.ITestResult)[pri:0, instance:tests.ToVerifyLoginPage@5e82df6a]" started-at="2022-02-20T21:00:50 IST" name="reverse" finished-at="2022-02-20T21:00:51 IST" duration-ms="507" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -95,19 +95,19 @@ at java.base/java.lang.Thread.run(Thread.java:831)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reverse -->
-        <test-method is-config="true" signature="clearPOMOObjects()[pri:0, instance:tests.ToVerifyLoginPage@5e82df6a]" started-at="2022-02-17T14:56:15 IST" name="clearPOMOObjects" finished-at="2022-02-17T14:56:15 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="clearPOMOObjects()[pri:0, instance:tests.ToVerifyLoginPage@5e82df6a]" started-at="2022-02-20T21:00:51 IST" name="clearPOMOObjects" finished-at="2022-02-20T21:00:51 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearPOMOObjects -->
-        <test-method is-config="true" signature="garageCleaner()[pri:0, instance:tests.ToVerifyLoginPage@5e82df6a]" started-at="2022-02-17T14:56:15 IST" name="garageCleaner" finished-at="2022-02-17T14:56:15 IST" duration-ms="31" status="PASS">
+        <test-method is-config="true" signature="garageCleaner()[pri:0, instance:tests.ToVerifyLoginPage@5e82df6a]" started-at="2022-02-20T21:00:51 IST" name="garageCleaner" finished-at="2022-02-20T21:00:51 IST" duration-ms="37" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- garageCleaner -->
       </class> <!-- tests.ToVerifyLoginPage -->
     </test> <!-- Chrome -->
-    <test started-at="2022-02-17T14:56:01 IST" name="Edge" finished-at="2022-02-17T14:56:16 IST" duration-ms="14671">
+    <test started-at="2022-02-20T21:00:34 IST" name="Edge" finished-at="2022-02-20T21:00:53 IST" duration-ms="18435">
       <class name="tests.ToVerifyLoginPage">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.ToVerifyLoginPage@42e99e4a]" started-at="2022-02-17T14:56:01 IST" name="launchBrowser" finished-at="2022-02-17T14:56:06 IST" duration-ms="4897" status="PASS">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.ToVerifyLoginPage@42e99e4a]" started-at="2022-02-20T21:00:34 IST" name="launchBrowser" finished-at="2022-02-20T21:00:39 IST" duration-ms="5370" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -118,19 +118,19 @@ at java.base/java.lang.Thread.run(Thread.java:831)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="objectOfPOM()[pri:0, instance:tests.ToVerifyLoginPage@42e99e4a]" started-at="2022-02-17T14:56:06 IST" name="objectOfPOM" finished-at="2022-02-17T14:56:06 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="objectOfPOM()[pri:0, instance:tests.ToVerifyLoginPage@42e99e4a]" started-at="2022-02-20T21:00:39 IST" name="objectOfPOM" finished-at="2022-02-20T21:00:39 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- objectOfPOM -->
-        <test-method is-config="true" signature="loginToUpstox()[pri:0, instance:tests.ToVerifyLoginPage@42e99e4a]" started-at="2022-02-17T14:56:06 IST" name="loginToUpstox" finished-at="2022-02-17T14:56:12 IST" duration-ms="6108" status="PASS">
+        <test-method is-config="true" signature="loginToUpstox()[pri:0, instance:tests.ToVerifyLoginPage@42e99e4a]" started-at="2022-02-20T21:00:39 IST" name="loginToUpstox" finished-at="2022-02-20T21:00:49 IST" duration-ms="9877" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToUpstox -->
-        <test-method signature="testDetails1()[pri:0, instance:tests.ToVerifyLoginPage@42e99e4a]" started-at="2022-02-17T14:56:12 IST" name="testDetails1" finished-at="2022-02-17T14:56:13 IST" duration-ms="1558" status="PASS">
+        <test-method signature="testDetails1()[pri:0, instance:tests.ToVerifyLoginPage@42e99e4a]" started-at="2022-02-20T21:00:49 IST" name="testDetails1" finished-at="2022-02-20T21:00:51 IST" duration-ms="1201" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDetails1 -->
-        <test-method is-config="true" signature="reverse(org.testng.ITestResult)[pri:0, instance:tests.ToVerifyLoginPage@42e99e4a]" started-at="2022-02-17T14:56:13 IST" name="reverse" finished-at="2022-02-17T14:56:13 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="reverse(org.testng.ITestResult)[pri:0, instance:tests.ToVerifyLoginPage@42e99e4a]" started-at="2022-02-20T21:00:51 IST" name="reverse" finished-at="2022-02-20T21:00:51 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -141,11 +141,11 @@ at java.base/java.lang.Thread.run(Thread.java:831)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reverse -->
-        <test-method is-config="true" signature="loginToUpstox()[pri:0, instance:tests.ToVerifyLoginPage@42e99e4a]" started-at="2022-02-17T14:56:13 IST" name="loginToUpstox" finished-at="2022-02-17T14:56:14 IST" duration-ms="550" status="PASS">
+        <test-method is-config="true" signature="loginToUpstox()[pri:0, instance:tests.ToVerifyLoginPage@42e99e4a]" started-at="2022-02-20T21:00:51 IST" name="loginToUpstox" finished-at="2022-02-20T21:00:51 IST" duration-ms="661" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToUpstox -->
-        <test-method signature="testDetails2()[pri:0, instance:tests.ToVerifyLoginPage@42e99e4a]" started-at="2022-02-17T14:56:14 IST" name="testDetails2" finished-at="2022-02-17T14:56:15 IST" duration-ms="996" status="FAIL">
+        <test-method signature="testDetails2()[pri:0, instance:tests.ToVerifyLoginPage@42e99e4a]" started-at="2022-02-20T21:00:51 IST" name="testDetails2" finished-at="2022-02-20T21:00:52 IST" duration-ms="1046" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[null]]>
@@ -154,7 +154,7 @@ at java.base/java.lang.Thread.run(Thread.java:831)
               <![CDATA[java.lang.AssertionError: null
 at org.testng.Assert.fail(Assert.java:99)
 at org.testng.Assert.fail(Assert.java:106)
-at tests.ToVerifyLoginPage.testDetails2(ToVerifyLoginPage.java:115)
+at tests.ToVerifyLoginPage.testDetails2(ToVerifyLoginPage.java:113)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -184,7 +184,7 @@ at java.base/java.lang.Thread.run(Thread.java:831)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDetails2 -->
-        <test-method is-config="true" signature="reverse(org.testng.ITestResult)[pri:0, instance:tests.ToVerifyLoginPage@42e99e4a]" started-at="2022-02-17T14:56:15 IST" name="reverse" finished-at="2022-02-17T14:56:15 IST" duration-ms="464" status="PASS">
+        <test-method is-config="true" signature="reverse(org.testng.ITestResult)[pri:0, instance:tests.ToVerifyLoginPage@42e99e4a]" started-at="2022-02-20T21:00:52 IST" name="reverse" finished-at="2022-02-20T21:00:52 IST" duration-ms="225" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -195,11 +195,11 @@ at java.base/java.lang.Thread.run(Thread.java:831)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reverse -->
-        <test-method is-config="true" signature="clearPOMOObjects()[pri:0, instance:tests.ToVerifyLoginPage@42e99e4a]" started-at="2022-02-17T14:56:15 IST" name="clearPOMOObjects" finished-at="2022-02-17T14:56:15 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="clearPOMOObjects()[pri:0, instance:tests.ToVerifyLoginPage@42e99e4a]" started-at="2022-02-20T21:00:52 IST" name="clearPOMOObjects" finished-at="2022-02-20T21:00:52 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearPOMOObjects -->
-        <test-method is-config="true" signature="garageCleaner()[pri:0, instance:tests.ToVerifyLoginPage@42e99e4a]" started-at="2022-02-17T14:56:15 IST" name="garageCleaner" finished-at="2022-02-17T14:56:16 IST" duration-ms="75" status="PASS">
+        <test-method is-config="true" signature="garageCleaner()[pri:0, instance:tests.ToVerifyLoginPage@42e99e4a]" started-at="2022-02-20T21:00:52 IST" name="garageCleaner" finished-at="2022-02-20T21:00:53 IST" duration-ms="35" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- garageCleaner -->
